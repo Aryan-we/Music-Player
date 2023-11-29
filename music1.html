@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Music Player</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+<link rel="stylesheet" href="style2.css">
+<style>
+body{
+    background: linear-gradient(45deg, black, #282C35);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+  
+}
+
+h1{
+    color: whitesmoke;
+    position: absolute;
+    top: 515px;
+    left: 590px;
+}
+p{
+    color: whitesmoke;
+}
+
+#cover_photo{
+    width: 700px;
+    height: 430px;
+    position: absolute;
+    left:340px;
+  
+    top: 80px;
+}
+p{
+    color: whitesmoke;
+    position: absolute;
+    top: 560px;
+    left:620px;
+}
+#prev{
+    background-color: black;
+    border: none;
+    position: absolute;
+    top: 590px;
+    left: 570px;
+}
+#play{
+    background-color: black;
+    border: none;
+    position: absolute;
+    top: 590px;
+    left:670px;
+}
+#next{
+    background-color: black;
+    border: none;
+    position: absolute;
+    top: 590px;
+    left: 770px;
+}
+.prev{
+    color: whitesmoke;
+    height: 5vh;
+}
+
+    *{
+    margin:0;
+    padding:0;
+}
+.container{
+    background-color:black;
+    height:100vh;
+    background-position:center;
+    background-size:cover;
+}
+/*navbar
+
+*/
+.navbar{
+    text-align: right;
+    padding:20px 30px 20px 0;
+    background-color:rgb(34,32,32);
+    width:100%;
+    position:fixed;
+    overflow:hidden;
+
+}
+.logo img{
+    margin:-20px;
+    float:left;
+    height:61px;
+    width:92px;
+    border:1px solid black;
+    margin-left:20px;
+
+}
+.navbar a{
+    font-size:15px;
+    font-weight:bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration:none;
+    color:white;
+    margin:3px;
+    padding:12px;
+
+}
+.navbar a:hover{
+    color:black;
+    background-color:white;
+
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="./photos/img7.jfif" alt="logo">
+
+        </div>
+        
+        <a href="C:\Users\user\Desktop\MUSIC WEBSITE\index.html">Home</a>
+        <a href="#">Download App</a>
+        <a href="#">Sign In</a>
+       
+    </div>
+
+    <div class="main_div">
+  
+
+        <div class="current_song"></div>
+            <img src="" id="cover_photo"/>
+            <h1 id="title"></h1>
+            <p id="singer"></p>
+            <button id="prev"><i class="fas fa-backward fa-3x prev"></i></button>
+            <button id="play"><i class="fas fa-play fa-3x prev"></i></button>
+            <button id="next"><i class="fas fa-forward fa-3x prev"></i></button>
+        </div>
+ 
+    
+    
+</div>
+
+
+    
+    </div>
+
+</div>
+</body>
+<script src="script1.js"></script>
+</html>
