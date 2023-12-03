@@ -1,8 +1,8 @@
-const cartoonAudio = new Audio('./songs/Proper-Patola---Namaste-England(PagalWorld).mp3');
-const forceAudio = new Audio('./songs/Kya-Baat-Ay---Harrdy-Sandhu(PagalWorld).mp3');
-const squeakyAudio = new Audio('./songs/Sakhiyaan---Maninder-Buttar(PagalWorld).mp3');
-const hopeAudio = new Audio('./songs/Slowly-Slowly---Guru-Randhawa-Ft.-Pitbull(PagalWorld).mp3');
-const janjiAudio = new Audio('./songs/Ghoomar---Padmaavat(PagalWorld).mp3');
+const song1= new Audio('./songs/Proper-Patola---Namaste-England(PagalWorld).mp3');
+const song2 = new Audio('./songs/Kya-Baat-Ay---Harrdy-Sandhu(PagalWorld).mp3');
+const song3= new Audio('./songs/Sakhiyaan---Maninder-Buttar(PagalWorld).mp3');
+const song4= new Audio('./songs/Slowly-Slowly---Guru-Randhawa-Ft.-Pitbull(PagalWorld).mp3');
+const song5 = new Audio('./songs/Ghoomar---Padmaavat(PagalWorld).mp3');
 
 // selecting elements
 const prevBtn = document.querySelector('.previous');
@@ -13,11 +13,11 @@ const playPauseIcon = document.querySelector('#play-pause-icon');
 
 
 const songs = [
-  { ele: cartoonAudio, audioName: 'Proper Patola (Badshah,Diljit Dosanjh,Aastha Gill)' },
-  { ele: forceAudio, audioName: 'Kya Baat Ay (Harrdy-Sandhu)' },
-  { ele: squeakyAudio, audioName: 'Sakhiyaan (Maninder-Buttar)' },
-  { ele: hopeAudio, audioName: 'Slowly-Slowly (Guru-Randhawa , Pitbull)' },
-  { ele: janjiAudio, audioName: 'Ghoomar (Padmaavat)' },
+  { ele: song1, audioName: 'Proper Patola (Badshah,Diljit Dosanjh,Aastha Gill)' },
+  { ele: song2, audioName: 'Kya Baat Ay (Harrdy-Sandhu)' },
+  { ele: song3, audioName: 'Sakhiyaan (Maninder-Buttar)' },
+  { ele: song4, audioName: 'Slowly-Slowly (Guru-Randhawa , Pitbull)' },
+  { ele: song5, audioName: 'Ghoomar (Padmaavat)' },
 ];
 
 for(const song of songs) {
